@@ -19,7 +19,9 @@ const carts = (props) => {
         <div className='flex flex-col space-y-6'>
             <h2 className='text-gray-800 font-bold text-lg rounded-t-lg m-2 text-center border-b-4 border-gray-800'>Order Summary</h2>
             <div>
+                <h3 className='text-center'>Items ordered: {carts.length}</h3>
                 <div className="flex flex-row justify-between mx-4 border-b-2">
+                    
                     <div>
                         <p className='text-sm font-semibold'>Total:</p>
                         <p className='text-sm font-semibold'>Shipping:</p>
